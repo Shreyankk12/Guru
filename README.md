@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Adaptive AI Learning Platform
 
-# Run and deploy your AI Studio app
+An AI-powered platform that creates personalized and continuously adapting learning paths based on a student's demonstrated skills, progress, projects, and mentor feedback.
 
-This contains everything you need to run your app locally.
+## The Problem
 
-View your app in AI Studio: https://ai.studio/apps/beb7c522-4bc9-48bc-89d5-a28f51ebd678
+Most learning roadmaps are static. Once created, they don't change based on whether a student is progressing quickly, struggling with a concept, or gaining new skills.
 
-## Run Locally
+## Our Solution
 
-**Prerequisites:**  Node.js
+Our platform dynamically adapts the learning journey.
 
+It assesses the student's current skill level, assigns progressively challenging real-world tasks, evaluates their performance, and continuously adjusts what they should learn next.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Key Features
+
+- AI-powered skill assessment
+- Adaptive learning roadmap
+- Real-world project-based progression
+- Teacher and mentor-defined skill levels
+- Continuous performance evaluation
+- Mentor feedback
+- Personalized next-step recommendations
+
+## How It Works
+
+Goal → Assessment → Skill Level → Project → Evaluation → Adaptation → Next Challenge
