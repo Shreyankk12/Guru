@@ -1,0 +1,6 @@
+{
+  "name": "GURU",
+  "description": "An adaptive student career roadmap and skill gap analyzer that compares demonstrated competencies against job requirements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
